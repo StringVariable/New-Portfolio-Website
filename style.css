@@ -91,7 +91,67 @@ p {
 }
 
 #portfolio-container {
-	padding: 5em 10em;
+	padding: 5em 5em;
 	background: #F7F7F7;
 	text-align: center;
+	height: 100%;
+}
+
+#portfolio-container h1 {
+	margin-bottom: 1em;
+}
+
+#portfolio-card-weather {
+	height: 30em;
+	width: 80%;
+	background: url("images/weather.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 1em;
+	display: inline-block;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+
+#portfolio-card-quote {
+	height: 30em;
+	width: 80%;
+	background: url("images/quote.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 1em;
+	display: inline-block;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+
+#portfolio-card-lamingtonlabs {
+	height: 30em;
+	width: 80%;
+	background: url("images/lamingtonlabs.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 1em;
+	display: inline-block;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+
+#portfolio-card-qut {
+	height: 30em;
+	width: 80%;
+	background: url("images/qut.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 1em;
+	display: inline-block;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+
+#portfolio-card-pingme {
+	height: 30em;
+	width: 80%;
+	background: url("images/pingme.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 1em;
+	display: inline-block;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
 }
