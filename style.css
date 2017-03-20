@@ -69,8 +69,6 @@ p {
 }
 
 .header-container {
-/*	color: #FFFFFF;
-	background: #00CECB;*/
 	padding: 0.5em 1em;
 	margin-bottom: 2em;
 	border-left: 0.4em solid #00CECB;
@@ -93,5 +91,7 @@ p {
 }
 
 #portfolio-container {
-
+	padding: 5em 10em;
+	background: #F7F7F7;
+	text-align: center;
 }
