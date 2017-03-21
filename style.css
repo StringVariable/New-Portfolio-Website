@@ -23,7 +23,7 @@ p {
 }
 
 .accent {
-	color: #80CED7;
+	color: #00CECB;
 }
 
 .right {
@@ -38,7 +38,7 @@ p {
 	width: auto;
 	padding: 1em 5em;
 	font-family: 'Ubuntu', sans-serif;
-	border-top: 0.4em solid #00CECB;
+	border-top: 0.2em solid #00CECB;
 }
 
 .parallax { 
@@ -91,7 +91,7 @@ p {
 }
 
 #portfolio-container {
-	padding: 5em 5em;
+	padding: 5em;
 	background: #F7F7F7;
 	text-align: center;
 	height: 100%;
@@ -154,4 +154,43 @@ p {
 	margin: 1em;
 	display: inline-block;
 	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+
+#contact-container {
+	background: #FFFFFF;
+	text-align: center;
+	padding: 15em;
+}
+
+#contact-container h1 {
+	margin-bottom: 0.5em;
+}
+
+#contact-container p {
+	margin-top: 1em;
+	font-size: 1em;
+}
+
+#copyright {
+	display: inline-block;
+	float: left;
+}
+
+#social-media-container {
+	display: inline-block;
+	float: right;
+	font-size: 2em;
+}
+
+footer {
+	height: 5em;
+	background: #252524;
+	line-height: 5em;
+	color: white;
+	padding: 0em 5em;
+}
+
+footer a {
+	text-decoration: none;
+	padding: 0;
 }
