@@ -254,6 +254,7 @@ footer a:hover {
 
 	#about-container {
 		overflow: auto;
+		padding: 5em 2em;
 	}
 
 	#me-column {
@@ -269,7 +270,8 @@ footer a:hover {
 	}
 
 	#portfolio-container {
-		padding: 5em 0em;
+		padding: 0em;
+		padding-top: 5em;
 	}
 
 	#portfolio-container h1 {
@@ -344,7 +346,7 @@ footer a:hover {
 	}
 
 	#contact-container {
-		padding: 2em;
+		padding: 7em 2em;
 	}
 
 	#contact-container h1 {
