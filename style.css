@@ -268,15 +268,101 @@ footer a:hover {
 		margin-top: 1.5em;
 	}
 
+	#portfolio-container {
+		padding: 5em 0em;
+	}
+
+	#portfolio-container h1 {
+		font-size: 2em;
+		margin-bottom: 2em;
+	}
+
 	#portfolio-card-weather {
-	height: 100vh;
-	width: 100%;
-	background: url("images/weather.png");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	margin: 1em;
-	display: inline-block;
-	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
-}
+		height: 12.8em;
+		width: 100%;
+		background: url("images/weather.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		margin: 0em;
+		display: inline-block;
+		box-shadow: 0px 0px 15px 0px rgba(0,0,0,0);
+	}
+
+	#portfolio-card-quote {
+		height: 12.8em;
+		width: 100%;
+		background: url("images/quote.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		margin: 0em;
+		display: inline-block;
+		box-shadow: 0px 0px 15px 0px rgba(0,0,0,0);
+	}
+
+	#portfolio-card-whatshouldidotoday {
+		height: 12.8em;
+		width: 100%;
+		background: url("images/whatshouldidotoday.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		margin: 0em;
+		display: inline-block;
+		box-shadow: 0px 0px 15px 0px rgba(0,0,0,0);
+	}
+
+	#portfolio-card-lamingtonlabs {
+		height: 12.8em;
+		width: 100%;
+		background: url("images/lamingtonlabs.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		margin: 0em;
+		display: inline-block;
+		box-shadow: 0px 0px 15px 0px rgba(0,0,0,0);
+	}
+
+	#portfolio-card-qut {
+		height: 12.8em;
+		width: 100%;
+		background: url("images/qut.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		margin: 0em;
+		display: inline-block;
+		box-shadow: 0px 0px 15px 0px rgba(0,0,0,0);
+	}
+
+	#portfolio-card-pingme {
+		height: 12.8em;
+		width: 100%;
+		background: url("images/pingme.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		margin: 0em;
+		display: inline-block;
+		box-shadow: 0px 0px 15px 0px rgba(0,0,0,0);
+	}
+
+	#contact-container {
+		padding: 2em;
+	}
+
+	#contact-container h1 {
+		margin-bottom: 0.5em;
+		font-size: 1.5em;
+	}
+
+	#contact-container h3 {
+		font-size: 0.8em;
+	}
+
+	#contact-container p {
+		margin-top: 1em;
+		font-size: 0.7em;
+	}
+
+	#social-media-container {
+		font-size: 1.5em;
+	}
 
 }
