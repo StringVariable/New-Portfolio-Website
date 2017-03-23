@@ -231,3 +231,52 @@ footer a {
 footer a:hover {
 	color: #00CECB;
 }
+
+/*********** Media Queries ***********/
+
+@media only screen and (max-width: 420px) {
+	nav {
+		font-size: 0.8em;
+		padding: 0;
+	}
+
+	#contact-button {
+		padding: 0;
+	}
+
+	#title-container h1 {
+		font-size: 2em;
+	}
+
+	#title-container h3 {
+			font-size: 0.7em;
+	}
+
+	#about-container {
+		overflow: auto;
+	}
+
+	#me-column {
+		display: inline;
+		margin-right: 0;
+	}
+
+	#skills-column {
+		display: inline;
+		float: left;
+		width: auto;
+		margin-top: 1.5em;
+	}
+
+	#portfolio-card-weather {
+	height: 100vh;
+	width: 100%;
+	background: url("images/weather.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 1em;
+	display: inline-block;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+
+}
