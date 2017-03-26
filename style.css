@@ -278,44 +278,31 @@ footer a:hover {
 	}
 
 	.portfolio-info-container {
-		text-align: left;
 		padding: 1em;
 		font-size: 0.8em;
 	}
 
 	#weather-img {
-		background: url("images/weather.png");
-		background-size: 100%;
 		height: 10em;
 	}
 
 	#quote-img {
-		background: url("images/quote.png");
-		background-size: 100%;
 		height: 10em;
 	}
 
 	#whatshouldidotoday-img {
-		background: url("images/whatshouldidotoday.png");
-		background-size: 100%;
 		height: 10em;
 	}
 
 	#lamingtonlabs-img {
-		background: url("images/lamingtonlabs.png");
-		background-size: 100%;
 		height: 10em;
 	}
 
 	#qut-img {
-		background: url("images/qut.png");
-		background-size: 100%;
 		height: 10em;
 	}
 
 	#pingme-img {
-		background: url("images/pingme.png");
-		background-size: 100%;
 		height: 10em;
 	}
 
