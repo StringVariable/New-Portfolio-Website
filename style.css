@@ -131,7 +131,6 @@ nav.nav-sticky {
 
 .portfolio-info-container {
 	text-align: left;
-	font-size: 0.8em;
 	padding: 1em;
 	font-size: 0.9em;
 }
@@ -139,6 +138,10 @@ nav.nav-sticky {
 .portfolio-info-container a {
 	color: black;
 	padding: 0;
+}
+
+.tech-used {
+	float: right;
 }
 
 #weather-img {
@@ -260,79 +263,60 @@ footer a:hover {
 	}
 
 	#portfolio-container {
-		padding: 0em;
-		padding-top: 5em;
+		padding: 2em 0em;
 	}
 
 	#portfolio-container h1 {
 		font-size: 2em;
-		margin-bottom: 2em;
 	}
 
-	#portfolio-card-weather {
-		height: 12.8em;
-		width: 100%;
+	.portfolio-card {
+		height: auto;
+		width: 80%;
+		margin: 1em;
+		display: inline-block;
+	}
+
+	.portfolio-info-container {
+		text-align: left;
+		padding: 1em;
+		font-size: 0.8em;
+	}
+
+	#weather-img {
 		background: url("images/weather.png");
 		background-size: 100%;
-		background-repeat: no-repeat;
-		margin: 0em;
-		display: inline-block;
-		box-shadow: 0px 0px 15px 0px rgba(0,0,0,0);
+		height: 10em;
 	}
 
-	#portfolio-card-quote {
-		height: 12.8em;
-		width: 100%;
+	#quote-img {
 		background: url("images/quote.png");
 		background-size: 100%;
-		background-repeat: no-repeat;
-		margin: 0em;
-		display: inline-block;
-		box-shadow: 0px 0px 15px 0px rgba(0,0,0,0);
+		height: 10em;
 	}
 
-	#portfolio-card-whatshouldidotoday {
-		height: 12.8em;
-		width: 100%;
+	#whatshouldidotoday-img {
 		background: url("images/whatshouldidotoday.png");
 		background-size: 100%;
-		background-repeat: no-repeat;
-		margin: 0em;
-		display: inline-block;
-		box-shadow: 0px 0px 15px 0px rgba(0,0,0,0);
+		height: 10em;
 	}
 
-	#portfolio-card-lamingtonlabs {
-		height: 12.8em;
-		width: 100%;
+	#lamingtonlabs-img {
 		background: url("images/lamingtonlabs.png");
 		background-size: 100%;
-		background-repeat: no-repeat;
-		margin: 0em;
-		display: inline-block;
-		box-shadow: 0px 0px 15px 0px rgba(0,0,0,0);
+		height: 10em;
 	}
 
-	#portfolio-card-qut {
-		height: 12.8em;
-		width: 100%;
+	#qut-img {
 		background: url("images/qut.png");
 		background-size: 100%;
-		background-repeat: no-repeat;
-		margin: 0em;
-		display: inline-block;
-		box-shadow: 0px 0px 15px 0px rgba(0,0,0,0);
+		height: 10em;
 	}
 
-	#portfolio-card-pingme {
-		height: 12.8em;
-		width: 100%;
+	#pingme-img {
 		background: url("images/pingme.png");
 		background-size: 100%;
-		background-repeat: no-repeat;
-		margin: 0em;
-		display: inline-block;
-		box-shadow: 0px 0px 15px 0px rgba(0,0,0,0);
+		height: 10em;
 	}
 
 	#contact-container {
