@@ -140,8 +140,21 @@ nav.nav-sticky {
 	padding: 0;
 }
 
-.tech-used {
+.portfolio-info-container p {
+	margin: 0.1em;
+}
+
+.proj-title {
+	display: inline-block;
+}
+
+.proj-tech {
+	display: inline-block;
 	float: right;
+}
+
+.proj-description {
+	display: inline-block;
 }
 
 #weather-img {
@@ -282,6 +295,10 @@ footer a:hover {
 		font-size: 0.8em;
 	}
 
+	.proj-tech {
+		float: none;
+	}
+
 	#weather-img {
 		height: 10em;
 	}
@@ -330,7 +347,7 @@ footer a:hover {
 
 }
 
-@media only screen and (min-width: 701px) and (max-width: 1150px) {
+@media only screen and (min-width: 701px) and (max-width: 1024px) {
 
 	nav {
 		font-size: 1.3em;
@@ -350,6 +367,10 @@ footer a:hover {
 
 	#portfolio-container {
 		padding: 3em 2em;
+	}
+
+	.proj-tech {
+		float: none;
 	}
 
 	#weather-img {
@@ -374,6 +395,10 @@ footer a:hover {
 
 	#pingme-img {
 		height: 18em;
+	}
+
+	#contact-container {
+		padding: 5em;
 	}
 
 }
