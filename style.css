@@ -129,6 +129,12 @@ nav.nav-sticky {
 	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
 }
 
+.portfolio-card a {
+	margin: 0em;
+	height: 0em;
+	padding: 0em;
+}
+
 .portfolio-info-container {
 	text-align: left;
 	padding: 1em;
@@ -157,40 +163,164 @@ nav.nav-sticky {
 	display: inline-block;
 }
 
+.portfolio-overlay-text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
 #weather-img {
 	background: url("images/weather.png");
 	background-size: 100%;
 	height: 30em;
+	position: relative;
+}
+
+.weather-hover {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease-in-out;
+	background: #000000;
+}
+
+#weather-img:hover .weather-hover {
+  	background: rgba(0, 0, 0, 0.6);
+	opacity: 1;
 }
 
 #quote-img {
 	background: url("images/quote.png");
 	background-size: 100%;
 	height: 30em;
+	position: relative;
+}
+
+.quote-hover {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease-in-out;
+	background: #000000;
+}
+
+#quote-img:hover .quote-hover {
+  	background: rgba(0, 0, 0, 0.6);
+	opacity: 1;
 }
 
 #whatshouldidotoday-img {
 	background: url("images/whatshouldidotoday.png");
 	background-size: 100%;
 	height: 30em;
+	position: relative;
+}
+
+.whatshouldidotoday-hover {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease-in-out;
+	background: #000000;
+}
+
+#whatshouldidotoday-img:hover .whatshouldidotoday-hover {
+	background: rgba(0, 0, 0, 0.6);
+	opacity: 1;
 }
 
 #lamingtonlabs-img {
 	background: url("images/lamingtonlabs.png");
 	background-size: 100%;
 	height: 30em;
+	position: relative;
+}
+
+.lamingtonlabs-hover {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease-in-out;
+	background: #000000;
+}
+
+#lamingtonlabs-img:hover .lamingtonlabs-hover {
+  	background: rgba(0, 0, 0, 0.6);
+	opacity: 1;
 }
 
 #qut-img {
 	background: url("images/qut.png");
 	background-size: 100%;
 	height: 30em;
+	position: relative;
+}
+
+.qut-hover {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease-in-out;
+	background: #000000;
+}
+
+#qut-img:hover .qut-hover {
+  	background: rgba(0, 0, 0, 0.6);
+	opacity: 1;
 }
 
 #pingme-img {
 	background: url("images/pingme.png");
 	background-size: 100%;
 	height: 30em;
+	position: relative;
+}
+
+.pingme-hover {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease-in-out;
+	background: #000000;
+}
+
+#pingme-img:hover .pingme-hover {
+  	background: rgba(0, 0, 0, 0.6);
+	opacity: 1;
 }
 
 #contact-container {
