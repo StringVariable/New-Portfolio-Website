@@ -1,0 +1,51 @@
+nav {
+  font-size: 1.3em;
+}
+
+#title-container h3 {
+  font-size: 1.5em;
+}
+
+#title-container h1 {
+  font-size: 3.8em;
+}
+
+#about-container {
+  padding: 3em;
+}
+
+#portfolio-container {
+  padding: 3em 2em;
+}
+
+.proj-tech {
+  float: none;
+}
+
+#weather-img {
+  height: 18em;
+}
+
+#quote-img {
+  height: 18em;
+}
+
+#whatshouldidotoday-img {
+  height: 18em;
+}
+
+#lamingtonlabs-img {
+  height: 18em;
+}
+
+#qut-img {
+  height: 18em;
+}
+
+#pingme-img {
+  height: 18em;
+}
+
+#contact-container {
+  padding: 5em;
+}
