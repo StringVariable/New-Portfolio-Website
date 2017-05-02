@@ -1,0 +1,115 @@
+nav {
+  font-size: 0.8em;
+  padding: 0;
+}
+
+#contact-button {
+  padding: 0;
+}
+
+#title-container h1 {
+  font-size: 2em;
+}
+
+#title-container h3 {
+    font-size: 0.7em;
+}
+
+.parallax {
+  background-attachment: scroll;
+  background-position: center bottom;
+}
+
+#about-container {
+  overflow: auto;
+  padding: 5em 2em 3em 2em;
+}
+
+#me-column {
+  display: inline;
+  margin-right: 0;
+}
+
+#skills-column {
+  display: inline;
+  float: left;
+  width: auto;
+  margin: 1.5em 0em 2em 0em;
+}
+
+#resume-container{
+  text-align: center;
+  font-size: 1.3em
+}
+
+#portfolio-container {
+  padding: 2em 0em;
+}
+
+#portfolio-container h1 {
+  font-size: 2em;
+}
+
+.portfolio-card {
+  height: auto;
+  width: 80%;
+  margin: 1em;
+  display: inline-block;
+}
+
+.portfolio-info-container {
+  padding: 1em;
+  font-size: 0.8em;
+}
+
+.proj-tech {
+  float: none;
+}
+
+#weather-img {
+  height: 10em;
+}
+
+#quote-img {
+  height: 10em;
+}
+
+#whatshouldidotoday-img {
+  height: 10em;
+}
+
+#lamingtonlabs-img {
+  height: 10em;
+}
+
+#qut-img {
+  height: 10em;
+}
+
+#pingme-img {
+  height: 10em;
+}
+
+#contact-container {
+  padding: 7em 2em;
+}
+
+#contact-container h1 {
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+}
+
+#contact-container h3 {
+  font-size: 0.8em;
+}
+
+#contact-container p {
+  margin-top: 1em;
+  font-size: 0.7em;
+}
+
+#social-media-container {
+  font-size: 1.5em;
+}
+
+}
