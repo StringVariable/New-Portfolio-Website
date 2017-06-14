@@ -1,0 +1,181 @@
+/*  Home/Global styles  */
+li a {
+  font-size: 1em;
+}
+
+#logo li {
+  font-size: 1em;
+}
+
+ul {
+  padding: 1em;
+}
+
+#jumbotron {
+  height: 30vh;
+  background-size: cover;
+  background-position: 10% 20%;
+  background-attachment: inherit;
+  padding-left: 1.5em;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+#motto {
+  font-size: 0.5em;
+}
+
+.button-large {
+  padding: 1em;
+  font-size: 0.8em;
+}
+
+main {
+  padding: 1em;
+}
+
+.card {
+  width: auto;
+  max-width: 450px;
+}
+
+/*  Stories styles  */
+#minitron-stories {
+  background-size: 200%;
+  height: 15vh;
+}
+
+/*  About styles  */
+#minitron-about {
+  background-size: 200%;
+  height: 15vh;
+  font-size: 1.3em;
+}
+
+.centered-heading h2 {
+  margin-top: 1em;
+}
+
+.no-border-content {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+/*  Contact styles  */
+
+#minitron-contact {
+  background-size: 100%;
+  height: 15vh;
+  font-size: 1.3em;
+}
+
+.left-aligned-heading h2 {
+  margin-top: 1em;
+}
+
+.short-hr {
+  width: 40%;
+}
+
+#contact-main {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.contact-no-border-content ul {
+  display: none;
+}
+
+form {
+  width: 100%;
+  float: none;
+}
+
+form button {
+  width: 100%;
+}
+
+/*  Article-1 styles  */
+
+#minitron-article-1 {
+  background-size: 120%;
+  background-position: center;
+  background-attachment: inherit;
+  height: 15vh;
+}
+
+.right-page {
+  display: none;
+}
+
+.left-page {
+  width: auto;
+}
+
+.comment-section {
+  width: auto;
+}
+
+textarea {
+  width: 90%;
+}
+
+.comment-section button {
+  float: none;
+  width: 100%;
+}
+
+article h2 {
+  font-size: 1.5em;
+}
+
+.breadcrumb {
+  padding: 0.5em 1em;
+}
+
+/*  Article-2 styles  */
+
+#minitron-article-2 {
+  background-size: 120%;
+  background-position: center;
+  background-attachment: inherit;
+  height: 15vh;
+}
+
+/*  Article-3 styles  */
+
+#minitron-article-3 {
+  background-size: 120%;
+  background-position: center 10%;
+  background-attachment: inherit;
+  height: 15vh;
+}
+
+/*  Article-4 styles  */
+
+#minitron-article-4 {
+  background-size: 120%;
+  background-position: center;
+  background-attachment: inherit;
+  height: 15vh;
+}
+
+/*  Article-5 styles  */
+
+#minitron-article-5 {
+  background-size: 120%;
+  background-position: center 10%;
+  background-attachment: inherit;
+  height: 15vh;
+}
+
+/*  Article-6 styles  */
+
+#minitron-article-6 {
+  background-size: 120%;
+  background-position: center;
+  background-attachment: inherit;
+  height: 15vh;
+}
