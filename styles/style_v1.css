@@ -1,0 +1,404 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h3, h4 {
+	margin: 0;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 0em 1em;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.accent {
+	color: #00CECB;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+#nav-link-container {
+	padding: 1em 5em;
+}
+
+nav {
+	width: 100%;
+	font-family: 'Ubuntu', sans-serif;
+	border-top: 0.2em solid #00CECB;
+	transition: all 1.4s ease;
+}
+
+nav.nav-sticky {
+	position: fixed;
+}
+
+#nav a {
+	padding: 0.7em;
+}
+
+#contact-button {
+	background: white;
+	color: black;
+	padding: 0.7em;
+	border-radius: 2px;
+}
+
+.parallax {
+    height: 100vh;
+    background-image: url("../images/parallax.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#title-container {
+	padding-top: 40vh;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 10;
+}
+
+#about-container {
+	background: #FFFFFF;
+	padding: 5em 5em 4em 5em;
+}
+
+#about-me-summary {
+	color: #616668;
+}
+
+.header-container {
+	padding: 0.5em 1em;
+	margin-bottom: 2em;
+	border-left: 0.4em solid #00CECB;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header-container h2 {
+	margin: 0;
+}
+
+#me-column {
+	width: 45%;
+	display: inline-block;
+}
+
+#skills-column {
+	width: 45%;
+	display: inline-block;
+	float: right;
+}
+
+#resume-container {
+	text-align: right;
+	padding-top: 2em;
+}
+
+#resume-container a {
+	color: black;
+	padding: 0.2em;
+}
+
+#portfolio-container {
+	padding: 5em;
+	background: #F7F7F7;
+	text-align: center;
+	height: 100%;
+}
+
+#portfolio-container h1 {
+	margin-bottom: 1em;
+}
+
+.portfolio-card {
+	height: auto;
+	width: 80%;
+	margin: 1em;
+	display: inline-block;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+
+.portfolio-card a {
+	margin: 0em;
+	height: 0em;
+	padding: 0em;
+}
+
+.portfolio-info-container {
+	text-align: left;
+	padding: 1em;
+	font-size: 0.9em;
+}
+
+.portfolio-info-container a {
+	color: black;
+	padding: 0;
+}
+
+.portfolio-info-container p {
+	margin: 0.1em;
+}
+
+.proj-title {
+	display: inline-block;
+}
+
+.proj-tech {
+	display: inline-block;
+	float: right;
+}
+
+.proj-description {
+	display: inline-block;
+}
+
+.portfolio-overlay-text {
+	color: white;
+	font-size: 25px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+#weather-img {
+	background: url("../images/weather.png");
+	background-size: 100%;
+	height: 30em;
+	position: relative;
+}
+
+.weather-hover {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease-in-out;
+	background: #000000;
+}
+
+#weather-img:hover .weather-hover {
+  background: rgba(0, 0, 0, 0.6);
+	opacity: 1;
+}
+
+#super-img {
+	background: url("../images/super.png");
+	background-size: cover;
+	height: 30em;
+	position: relative;
+}
+
+.super-hover {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease-in-out;
+	background: #000000;
+}
+
+#super-img:hover .super-hover {
+  background: rgba(0, 0, 0, 0.6);
+	opacity: 1;
+}
+
+#quote-img {
+	background: url("../images/quote.png");
+	background-size: 100%;
+	height: 30em;
+	position: relative;
+}
+
+.quote-hover {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease-in-out;
+	background: #000000;
+}
+
+#quote-img:hover .quote-hover {
+  	background: rgba(0, 0, 0, 0.6);
+	opacity: 1;
+}
+
+#whatshouldidotoday-img {
+	background: url("../images/whatshouldidotoday.png");
+	background-size: 100%;
+	height: 30em;
+	position: relative;
+}
+
+.whatshouldidotoday-hover {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease-in-out;
+	background: #000000;
+}
+
+#whatshouldidotoday-img:hover .whatshouldidotoday-hover {
+	background: rgba(0, 0, 0, 0.6);
+	opacity: 1;
+}
+
+#lamingtonlabs-img {
+	background: url("../images/lamingtonlabs.png");
+	background-size: 100%;
+	height: 30em;
+	position: relative;
+}
+
+.lamingtonlabs-hover {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease-in-out;
+	background: #000000;
+}
+
+#lamingtonlabs-img:hover .lamingtonlabs-hover {
+  	background: rgba(0, 0, 0, 0.6);
+	opacity: 1;
+}
+
+#qut-img {
+	background: url("../images/qut.png");
+	background-size: 100%;
+	height: 30em;
+	position: relative;
+}
+
+.qut-hover {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease-in-out;
+	background: #000000;
+}
+
+#qut-img:hover .qut-hover {
+  	background: rgba(0, 0, 0, 0.6);
+	opacity: 1;
+}
+
+#pingme-img {
+	background: url("../images/pingme.png");
+	background-size: 100%;
+	height: 30em;
+	position: relative;
+}
+
+.pingme-hover {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease-in-out;
+	background: #000000;
+}
+
+#pingme-img:hover .pingme-hover {
+  	background: rgba(0, 0, 0, 0.6);
+	opacity: 1;
+}
+
+#contact-container {
+	background: #FFFFFF;
+	text-align: center;
+	padding: 10em;
+}
+
+#contact-container h1 {
+	margin-bottom: 0.5em;
+}
+
+#contact-container p {
+	margin-top: 1em;
+	font-size: 1em;
+}
+
+#copyright {
+	display: inline-block;
+	float: left;
+	color: #50514F;
+}
+
+#social-media-container {
+	display: inline-block;
+	font-size: 2em;
+	text-align: center;
+	width: 100%;
+}
+
+footer {
+	height: 5em;
+	background: #252524;
+	line-height: 5em;
+	color: white;
+	padding: 0em 5em;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+
+footer a {
+	padding: 0;
+}
+
+footer a:hover {
+	color: #00CECB;
+}
