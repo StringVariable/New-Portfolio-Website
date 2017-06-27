@@ -16,7 +16,7 @@ nav {
 }
 
 .parallax {
-  background-size: auto;
+  background-attachment: scroll;
   background-position: center bottom;
 }
 
@@ -71,6 +71,14 @@ nav {
 }
 
 #quote-img {
+  height: 10em;
+}
+
+#super-img {
+  height: 10em;
+}
+
+#wiki-img {
   height: 10em;
 }
 

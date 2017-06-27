@@ -258,6 +258,31 @@ nav.nav-sticky {
 	opacity: 1;
 }
 
+#wiki-img {
+	background: url("../images/wiki.png");
+	background-size: 100%;
+	height: 30em;
+	position: relative;
+}
+
+.wiki-hover {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease-in-out;
+	background: #000000;
+}
+
+#wiki-img:hover .wiki-hover {
+  	background: rgba(0, 0, 0, 0.6);
+	opacity: 1;
+}
+
 #whatshouldidotoday-img {
 	background: url("../images/whatshouldidotoday.png");
 	background-size: 100%;
