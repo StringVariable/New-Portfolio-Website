@@ -134,6 +134,7 @@ nav.nav-sticky {
 .portfolio-card {
 	height: auto;
 	width: 80%;
+	max-width: 1000px;
 	margin: 1em;
 	display: inline-block;
 	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
