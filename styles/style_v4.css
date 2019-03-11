@@ -185,9 +185,9 @@ nav.nav-sticky {
 }
 
 #icosian-website-img {
-	background: url("../images/icosian-website.png");
+	background: url("../images/icosian-io.png");
 	background-size: 100%;
-	background-position: 0px -50px;
+	background-position: 0px 0px;
 	height: 30em;
 	position: relative;
 }
